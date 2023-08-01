@@ -1,0 +1,98 @@
+body{
+   background-image:  url('../images/back.jpeg');
+   background-size: cover;
+   background-repeat: no-repeat;
+   width: 100%;
+}
+p{
+   color: lightgreen;
+   font-size: 20px;
+   text-shadow: -2px -2px 3px green;
+   text-align: center;
+}
+a{
+   text-decoration: none;
+   font-size: 40px;
+   color: yellow;
+   position: relative;
+   left: 50px;
+}
+a:hover{
+   color: green;
+   text-shadow: 2px 2px 3px lime;
+}
+.whole{
+   justify-content: center;
+   align-content: center;
+   text-align: center;
+   align-items: center;
+   background: black;
+   width: 325px;
+   backdrop-filter: blur(4px);
+   border-radius: 10px;
+   box-shadow: -4px -4px 4px green, 4px 4px 4px blue ;
+} 
+input{
+   padding: 15px;
+   width: 70px;
+   font-size: 25px;
+   outline: none;
+   background: none;
+   box-shadow: -2px -2px 4px green, 2px 2px 5px blue;
+   border: none;
+   border-radius: 6px;
+   color: lightgreen;
+   font-family: times new romans;
+   /*text-shadow: -2px -2px 3px darkblue, 2px 2px 3px darkred;*/
+}
+input:hover{
+   color: aqua;
+   box-shadow: -2px -2px 3px blue, 2px 2px 3px red;
+}
+#display{
+   width: 230px;
+   padding: 30px;
+   text-align: end;
+   position: relative;
+   height: 50px;
+   text-shadow: none;
+   color: lightgreen;
+}
+#display::placeholder{
+   color: green;
+}
+#display:hover{
+   background: none;
+   color: lightgreen;
+   box-shadow: -2px -2px 3px green, 2px 2px 3px darkblue;
+}
+#equal{
+   width: 135px;
+}
+.main{
+   display: grid;
+   place-items: center;
+}
+h3{
+   font-family: times new roman;
+   color: lightgreen;
+   text-shadow: -2px -2px 3px green, 2px 2px 3px darkblue;
+   position: relative;
+   bottom: 40px;
+}
+
+/*
+#button{
+   height: 20px;
+   font-size: 10px;
+   text-align: left;
+   background: black;
+   color: lightgreen;
+   border: none;
+   
+}*/
+
+
+
+/*second calculator*/
+
